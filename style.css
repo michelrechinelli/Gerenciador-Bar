@@ -33,4 +33,43 @@ header h1{
     margin-right: auto;
     border-radius: 30px;
     border-style:groove;
-    border-color: #2A2730;
+    border-color: #2A2730;}
+
+.input{
+    margin: 25px auto;
+    width: 800px;
+    border: none;
+    text-align: start;
+    display: flex;
+    margin-top: 5px;
+    font-size: 1.5em;
+    flex-direction: column;
+}
+.input input{
+    border-color: #C85A00;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.botao{
+    align-items: flex-end;
+}
+.botao button{
+    margin-top: 7px;
+    font-size: 1.5em;
+    background-color: #C85A00;
+    border-radius: 15px;
+    color: #EFF0B8;
+    font-size: 900;
+    cursor: pointer;
+}
+.historico{
+    text-align: center;
+}
+.historico h1{
+    color: #2A2730;
+    font-size: 1.7em;
+    border-bottom-style:groove;
+    border-color: #C85A00;
+}
