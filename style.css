@@ -1,0 +1,36 @@
+/* Paleta de cores 
+laranja #C85A00
+ocre #EFF0B8
+preto #2A2730*/
+
+body{
+    background-color: #C85A00 ;
+    margin: 3px 0 3px 0;
+}
+
+header{
+    margin: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    border-radius: 15px;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    margin-bottom:5px;
+    border-style: groove;
+    border-color: #EFF0B8;
+}
+header h1{
+    color: #2A2730;
+}
+.container {
+    display: flex;
+    background-image:url(midias/Logo\ grade\ PB.png);
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border-style:groove;
+    border-color: #2A2730;
